@@ -1,0 +1,2 @@
+Version: 3.2.0
+When you download new version, you need change script in createdatabase.bat

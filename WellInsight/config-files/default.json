@@ -1,0 +1,18 @@
+{
+  "Database":{
+    "dialect":"sqlite",  // "postgres" for PostgreSql, "mysql" for MySql, "sqlite" for sqLite
+    "host":"localhost",
+    "port":3306,
+    "user":"root",
+    "password":"1234",
+    "logging":false,     //Logging all database query if is set "true"
+    "storage":"..\\database\\wi_backend.db", //Path to database.db (used for sqlite only)
+    "dbName":"wi_backend"
+  },
+  "Application":{
+    "port":3000
+  },
+  "curveBasePath": "../data"
+}
+
+// should ignore from git
